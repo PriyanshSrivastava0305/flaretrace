@@ -1,0 +1,10 @@
+lightkurve
+streamlit
+etsi-watchdog
+scikit-learn
+matplotlib
+numpy
+pandas
+astropy
+seaborn
+plotly
