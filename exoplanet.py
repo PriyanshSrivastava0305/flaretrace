@@ -55,8 +55,10 @@ def train_anomaly_model(df):
     return df
 
 # === STREAMLIT UI ===
-st.set_page_config(page_title="🔭 Advanced Exoplanet Lab", layout="wide")
-st.title("🌌 Exoplanet & Stellar Lab — Advanced Drift & Pattern Analysis")
+st.set_page_config(page_title="🔭 FlareTrace", layout="wide")
+# st.title("🌌 Exoplanet & Stellar Lab — Advanced Drift & Pattern Analysis")
+
+st.title("AI observatory for catching exoplanets, stellar drift, and space anomalies in light curves.")
 
 with st.sidebar:
     st.header("⚙️ Configuration")
