@@ -1,10 +1,18 @@
-lightkurve
-streamlit
+# Core packages
+streamlit==1.35.0
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+
+# Light curve tools
+lightkurve==2.4.1
+
+# Drift & monitoring
 etsi-watchdog
-scikit-learn
-matplotlib
-numpy
-pandas
-astropy
-seaborn
-plotly
+
+# Transit modeling
+platon==2.1
+
+# Optional scientific dependencies
+astropy==6.0.0
+scikit-learn==1.5.0

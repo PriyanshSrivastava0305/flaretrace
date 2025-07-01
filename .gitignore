@@ -1,0 +1,29 @@
+# Ignore Python virtual environments
+venv/
+.env/
+
+# VSCode and system files
+.vscode/
+__pycache__/
+*.pyc
+*.pkl
+
+# Streamlit cache
+.streamlit/
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/*.csv
+!data/example_spectrum.csv
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Environment and pip files
+*.env
+*.egg-info/
+pip-log.txt
