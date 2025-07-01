@@ -1,3 +1,3 @@
 import pandas as pd
-df = pd.read_csv("logs/rolling_log.csv")
+df = pd.read_csv("data/kepler10_lightcurve.csv")
 print(df.columns.tolist())

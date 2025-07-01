@@ -43,14 +43,12 @@ def run_platon_retrieval(
     )
 
     return wavelengths * 1e6, model_depths, info_dict  # Convert back to μm for plotting
-    # return wavelengths, depths, info_dict
-
 
 
 def plot_fit(wavelength_um, original_flux, corrected_flux=None, model_wavelengths=None, model_depths=None):
     plt.figure(figsize=(10, 5))
     plt.plot(wavelength_um, original_flux, label="Observed", alpha=0.7, marker='o')
-    
+
     if corrected_flux is not None:
         plt.plot(wavelength_um, corrected_flux, label="Corrected", alpha=0.7, marker='o')
 
